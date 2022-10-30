@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atmae.database.mapper.CourseMapper">
+
+
+    <resultMap id="courseResultMap" type="com.atmae.database.domain.pojo.Course">
+        <id property="cid" column="cid"/>
+        <result property="cname" column="cname"/>
+        <result property="tid" column="tid"/>
+        <result property="creditPoints" column="credit_points"/>
+    </resultMap>
+    <insert id="insert">
+        insert into course(tid, cname, credit_point)
+        values (#{tid}, #{cname}, #{creditPoint})
+    </insert>
+    <select id="findByCid" resultMap="courseResultMap">
+        select cid, tid, cname, credit_points
+        from course
+        where cid =#{cid}
+    </select>
+    <select id="findByTid" resultMap="courseResultMap">
+        select cid, tid, cname, credit_points
+        from course
+        where tid = #{tid}
+    </select>
+
+
+
+    <select id="findAll" resultMap="courseResultMap">
+        select cid, tid, cname, credit_points
+        from course
+    </select>
+
+</mapper>

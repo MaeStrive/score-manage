@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbbe477b-9b20-492c-a1b7-53dd3d42aa2a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-config" />
+        <option value="mapper" />
+        <option value="Interface" />
+        <option value="Vue Single File Component" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/vue" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/database/src/main/java/com/atmae/database/interceptor/LoginInterceptor.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/src/main/java/com/atmae/database/controller/base/BaseController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/src/main/java/com/atmae/database/config/CorsConfig.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/src/main/java/com/atmae/database/service/ex/CourseWasEleException.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/src/main/java/com/atmae/database/service/ex/UserNotFoundException.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/src/main/java/com/atmae/database/enums/AppHttpCodeEnum.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/src/main/java/com/atmae/database/service/ex/ScoreNotFountException.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/src/main/java/com/atmae/database/utils/JsonResult.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/database/src/main/resources/mapper/UserMapper.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.8.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Aphlrl1xlrnNopL8grrVD0y9l8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JAVA_Final_Mae\dbm\vue\src\utils" />
+      <recent name="D:\JAVA_Final_Mae\dbm\vue\src\style" />
+      <recent name="D:\JAVA_Final_Mae\dbm\vue\src\components" />
+      <recent name="D:\JAVA_Final_Mae\dbm\database\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.DatabaseApplication">
+    <configuration name="StudentMapperTest.insertStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atmae.database.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atmae.database.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.atmae.database.mapper.StudentMapperTest" />
+      <option name="METHOD_NAME" value="insertStudent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMapperTest.queryStudnet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atmae.database.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atmae.database.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.atmae.database.mapper.StudentMapperTest" />
+      <option name="METHOD_NAME" value="queryStudnet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserMapperTest.intsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atmae.database.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atmae.database.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.atmae.database.mapper.UserMapperTest" />
+      <option name="METHOD_NAME" value="intsertUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="listCourseByTidTest.listCourseByTid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="database" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atmae.database.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atmae.database.service" />
+      <option name="MAIN_CLASS_NAME" value="com.atmae.database.service.listCourseByTidTest" />
+      <option name="METHOD_NAME" value="listCourseByTid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatabaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="database" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atmae.database.DatabaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.StudentMapperTest.insertStudent" />
+      <item itemvalue="JUnit.StudentMapperTest.queryStudnet" />
+      <item itemvalue="JUnit.UserMapperTest.intsertUser" />
+      <item itemvalue="JUnit.listCourseByTidTest.listCourseByTid" />
+      <item itemvalue="npm.run" />
+      <item itemvalue="npm.build" />
+      <item itemvalue="Spring Boot.DatabaseApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.listCourseByTidTest.listCourseByTid" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="JUnit.UserMapperTest.intsertUser" />
+        <item itemvalue="JUnit.StudentMapperTest.queryStudnet" />
+        <item itemvalue="JUnit.StudentMapperTest.insertStudent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbbe477b-9b20-492c-a1b7-53dd3d42aa2a" name="Changes" comment="" />
+      <created>1655712587424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655712587424</updated>
+      <workItem from="1655712588793" duration="1929000" />
+      <workItem from="1655726394830" duration="14000" />
+      <workItem from="1655805203567" duration="9821000" />
+      <workItem from="1655856490148" duration="4312000" />
+      <workItem from="1655861720669" duration="3504000" />
+      <workItem from="1655865394133" duration="698000" />
+      <workItem from="1655866344508" duration="101000" />
+      <workItem from="1655877921413" duration="1333000" />
+      <workItem from="1655879574731" duration="6266000" />
+      <workItem from="1655944042945" duration="9669000" />
+      <workItem from="1655966899761" duration="11193000" />
+      <workItem from="1655993039581" duration="2616000" />
+      <workItem from="1656586980912" duration="9847000" />
+      <workItem from="1656633846003" duration="14224000" />
+      <workItem from="1656739843560" duration="1055000" />
+      <workItem from="1656929051266" duration="1704000" />
+      <workItem from="1657093300197" duration="41000" />
+      <workItem from="1657351201102" duration="2696000" />
+      <workItem from="1657533830660" duration="137000" />
+      <workItem from="1657534259525" duration="244000" />
+      <workItem from="1657539510582" duration="13000" />
+      <workItem from="1657871850063" duration="704000" />
+      <workItem from="1657878651850" duration="1973000" />
+      <workItem from="1657944090398" duration="7854000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

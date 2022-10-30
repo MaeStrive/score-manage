@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atmae.database.mapper.StudentMapper">
+
+    <resultMap id="studentResultMap" type="com.atmae.database.domain.pojo.Student">
+        <!-- 用id属性来映射主键字段 -->
+        <id property="sid" column="sid"/>
+        <!-- 用result属性来映射非主键字段 -->
+        <result property="sname" column="sname"/>
+        <result property="sclass" column="sclass"/>
+        <result property="sgender" column="sgender"/>
+        <result property="smajor" column="smajor"/>
+        <result property="creditPoints" column="credit_points"/>
+    </resultMap>
+    <select id="findById" resultMap="studentResultMap">
+        select sid, sname, sclass, sgender, smajor, credit_points
+        from student
+        where sid = #{sid}
+    </select>
+
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="sid">
+        insert into student (sname, sclass, sgender, smajor)
+        values (#{sname}, #{sclass}, #{sgender}, #{smajor})
+    </insert>
+
+    <update id="updateCredit">
+        update student
+        set credit_points+=#{credit}
+        where sid=#{sid}
+    </update>
+</mapper>

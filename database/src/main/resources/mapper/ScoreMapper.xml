@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.atmae.database.mapper.ScoreMapper">
+
+    <insert id="insert">
+        insert into score(sid, cid)
+        values (#{sid}, #{cid})
+    </insert>
+
+    <insert id="update">
+        update score
+        set score=#{score}
+        where sid = #{sid}
+          and cid = #{cid}
+    </insert>
+
+    <select id="findBySidAndCid" resultType="com.atmae.database.domain.pojo.Score">
+        select sid, tid, cid, score
+        from score
+        where sid = #{sid}
+          and cid = #{cid}
+    </select>
+
+    <select id="findBySid" resultType="com.atmae.database.domain.pojo.Score">
+        select sid, tid, cid, score
+        from score
+        where sid = #{sid}
+    </select>
+
+    <select id="findByCid" resultType="com.atmae.database.domain.pojo.Score">
+        select *
+        from score
+        where cid = #{cid}
+    </select>
+
+</mapper>

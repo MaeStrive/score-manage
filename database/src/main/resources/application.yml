@@ -1,0 +1,23 @@
+
+spring:
+  datasource:
+    # ???????????
+    druid:
+      # ???
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/studentscore?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+      username: root
+      password: 123456
+      # ??????
+      initialSize: 5
+      # ???????
+      minIdle: 5
+      # ?????
+      maxActive: 20
+      # ????????
+      maxWait: 60000
+mybatis:
+  # mapper ?????
+  mapper-locations: classpath:mapper/*.xml
+server:
+  port: 8090
